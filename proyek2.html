@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Sederhana - HTML Lanjutan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    #container {
+      border: 2px solid #333;
+      padding: 15px;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+    .highlight {
+      color: blue;
+      font-weight: bold;
+    }
+    img {
+      margin: 10px;
+    }
+    dl {
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bagian atas dengan div dan span -->
+  <div id="container">
+    <h1 id="atas">Belajar HTML Lanjutan</h1>
+    <p>
+      Ini adalah contoh web sederhana menggunakan 
+      <span class="highlight">tag span</span> dan 
+      <span class="highlight">div</span> untuk mengatur struktur halaman.
+    </p>
+  </div>
+
+  <!-- Contoh gambar dengan align dan border -->
+  <h2>Contoh Gambar dengan Align dan Border</h2>
+  <p>
+    <img src="https://via.placeholder.com/150" align="left" border="3" alt="Gambar Kiri">
+    Teks ini berada di samping gambar yang menggunakan <code>align="left"</code> 
+    dan <code>border="3"</code>. Gambar akan berada di kiri, sedangkan teks mengalir di sebelah kanannya.
+  </p>
+  <div style="clear: both;"></div>
+
+  <!-- Description List -->
+  <h2 id="deskripsi">Contoh Description List</h2>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Bahasa markup untuk membuat struktur halaman web.</dd>
+    <dt>CSS</dt>
+    <dd>Bahasa untuk mengatur tampilan dan gaya halaman web.</dd>
+    <dt>JavaScript</dt>
+    <dd>Bahasa pemrograman untuk menambahkan interaktivitas pada web.</dd>
+  </dl>
+
+  <!-- Internal Link -->
+  <h2>Contoh Internal Link</h2>
+  <p>
+    <a href="#atas">Kembali ke Atas</a> |
+    <a href="#deskripsi">Lihat Description List</a>
+  </p>
+
+</body>
+</html>

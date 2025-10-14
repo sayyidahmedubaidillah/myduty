@@ -1,0 +1,86 @@
+/* Reset dasar dan styling untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff; /* Warna latar belakang biru muda seperti di contoh */
+    margin: 0;
+    padding: 20px; /* Memberi jarak dari tepi browser */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Kontainer utama yang membungkus seluruh konten */
+.container {
+    max-width: 900px;
+    width: 100%;
+    background-color: #0decbc; /* Latar belakang putih untuk konten */
+    border: 3px solid #b3d9ff; /* Border biru muda di sekeliling */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Styling untuk Header */
+header {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Styling untuk Navigasi */
+nav {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none; /* Menghilangkan bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Membuat menu jadi horizontal */
+}
+
+nav ul li a {
+    text-decoration: none; /* Menghilangkan garis bawah link */
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #e9ecef;
+}
+
+/* Styling untuk area konten utama */
+main {
+    padding: 0;
+}
+
+.content-columns {
+    display: flex; /* Mengatur agar kolom contact dan status berdampingan */
+    padding: 20px;
+    gap: 20px; /* Memberi jarak antar kolom */
+}
+
+.column {
+    flex: 1; /* Membuat kedua kolom memiliki lebar yang sama */
+    border: 1px solid #ccc;
+    padding: 15px;
+    min-height: 150px; /* Tinggi minimal agar terlihat rapi */
+}
+
+.column h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Styling untuk Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #555;
+}
